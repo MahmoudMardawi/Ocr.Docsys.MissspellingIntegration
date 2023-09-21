@@ -1,0 +1,286 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{b6878d37-6f94-4c25-ad43-b7d018eacac9}</ProjectGuid>
+    <ProjectHome />
+    <StartupFile>spelling-checker.py</StartupFile>
+    <SearchPath />
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <ProjectTypeGuids>{888888a0-9f3d-457c-b088-3a5042f75d52}</ProjectTypeGuids>
+    <LaunchProvider>Standard Python launcher</LaunchProvider>
+    <InterpreterId>MSBuild|env|$(MSBuildProjectFullPath)</InterpreterId>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Debug'" />
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'" />
+  <PropertyGroup>
+    <VisualStudioVersion Condition=" '$(VisualStudioVersion)' == '' ">10.0</VisualStudioVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="0.txt" />
+    <Content Include="10.txt" />
+    <Content Include="101.txt" />
+    <Content Include="110.txt" />
+    <Content Include="114.txt" />
+    <Content Include="116.txt" />
+    <Content Include="118.txt" />
+    <Content Include="124.txt" />
+    <Content Include="129.txt" />
+    <Content Include="134.txt" />
+    <Content Include="135.txt" />
+    <Content Include="138.txt" />
+    <Content Include="14.txt" />
+    <Content Include="144.txt" />
+    <Content Include="146.txt" />
+    <Content Include="159.txt" />
+    <Content Include="16.txt" />
+    <Content Include="161.txt" />
+    <Content Include="164.txt" />
+    <Content Include="169.txt" />
+    <Content Include="170.txt" />
+    <Content Include="173.txt" />
+    <Content Include="183.txt" />
+    <Content Include="190.txt" />
+    <Content Include="194.txt" />
+    <Content Include="2.txt" />
+    <Content Include="203.txt" />
+    <Content Include="212.txt" />
+    <Content Include="219.txt" />
+    <Content Include="222.txt" />
+    <Content Include="227.txt" />
+    <Content Include="228.txt" />
+    <Content Include="232.txt" />
+    <Content Include="234.txt" />
+    <Content Include="235.txt" />
+    <Content Include="236.txt" />
+    <Content Include="238.txt" />
+    <Content Include="241.txt" />
+    <Content Include="244.txt" />
+    <Content Include="252.txt" />
+    <Content Include="254.txt" />
+    <Content Include="26.txt" />
+    <Content Include="262.txt" />
+    <Content Include="268.txt" />
+    <Content Include="270.txt" />
+    <Content Include="275.txt" />
+    <Content Include="277.txt" />
+    <Content Include="286.txt" />
+    <Content Include="289.txt" />
+    <Content Include="290.txt" />
+    <Content Include="3.txt" />
+    <Content Include="303.txt" />
+    <Content Include="305.txt" />
+    <Content Include="312.txt" />
+    <Content Include="314.txt" />
+    <Content Include="318.txt" />
+    <Content Include="319.txt" />
+    <Content Include="321.txt" />
+    <Content Include="322.txt" />
+    <Content Include="325.txt" />
+    <Content Include="326.txt" />
+    <Content Include="330.txt" />
+    <Content Include="337.txt" />
+    <Content Include="339.txt" />
+    <Content Include="340.txt" />
+    <Content Include="341.txt" />
+    <Content Include="342.txt" />
+    <Content Include="347.txt" />
+    <Content Include="353.txt" />
+    <Content Include="360.txt" />
+    <Content Include="365.txt" />
+    <Content Include="369.txt" />
+    <Content Include="375.txt" />
+    <Content Include="377.txt" />
+    <Content Include="381.txt" />
+    <Content Include="382.txt" />
+    <Content Include="383.txt" />
+    <Content Include="39.txt" />
+    <Content Include="390.txt" />
+    <Content Include="395.txt" />
+    <Content Include="396.txt" />
+    <Content Include="397.txt" />
+    <Content Include="407.txt" />
+    <Content Include="409.txt" />
+    <Content Include="412.txt" />
+    <Content Include="415.txt" />
+    <Content Include="422.txt" />
+    <Content Include="424.txt" />
+    <Content Include="427.txt" />
+    <Content Include="428.txt" />
+    <Content Include="43.txt" />
+    <Content Include="431.txt" />
+    <Content Include="432.txt" />
+    <Content Include="435.txt" />
+    <Content Include="436.txt" />
+    <Content Include="44.txt" />
+    <Content Include="441.txt" />
+    <Content Include="446.txt" />
+    <Content Include="449.txt" />
+    <Content Include="455.txt" />
+    <Content Include="456.txt" />
+    <Content Include="460.txt" />
+    <Content Include="478.txt" />
+    <Content Include="486.txt" />
+    <Content Include="494.txt" />
+    <Content Include="495.txt" />
+    <Content Include="499.txt" />
+    <Content Include="504.txt" />
+    <Content Include="505.txt" />
+    <Content Include="512.txt" />
+    <Content Include="514.txt" />
+    <Content Include="519.txt" />
+    <Content Include="52.txt" />
+    <Content Include="531.txt" />
+    <Content Include="540.txt" />
+    <Content Include="543.txt" />
+    <Content Include="547.txt" />
+    <Content Include="548.txt" />
+    <Content Include="556.txt" />
+    <Content Include="557.txt" />
+    <Content Include="56.txt" />
+    <Content Include="560.txt" />
+    <Content Include="561.txt" />
+    <Content Include="564.txt" />
+    <Content Include="566.txt" />
+    <Content Include="568.txt" />
+    <Content Include="569.txt" />
+    <Content Include="573.txt" />
+    <Content Include="577.txt" />
+    <Content Include="58.txt" />
+    <Content Include="581.txt" />
+    <Content Include="584.txt" />
+    <Content Include="587.txt" />
+    <Content Include="594.txt" />
+    <Content Include="596.txt" />
+    <Content Include="599.txt" />
+    <Content Include="6.txt" />
+    <Content Include="600.txt" />
+    <Content Include="604.txt" />
+    <Content Include="607.txt" />
+    <Content Include="616.txt" />
+    <Content Include="618.txt" />
+    <Content Include="62.txt" />
+    <Content Include="626.txt" />
+    <Content Include="628.txt" />
+    <Content Include="632.txt" />
+    <Content Include="639.txt" />
+    <Content Include="641.txt" />
+    <Content Include="642.txt" />
+    <Content Include="643.txt" />
+    <Content Include="644.txt" />
+    <Content Include="657.txt" />
+    <Content Include="658.txt" />
+    <Content Include="674.txt" />
+    <Content Include="675.txt" />
+    <Content Include="676.txt" />
+    <Content Include="677.txt" />
+    <Content Include="679.txt" />
+    <Content Include="68.txt" />
+    <Content Include="680.txt" />
+    <Content Include="69.txt" />
+    <Content Include="690.txt" />
+    <Content Include="691.txt" />
+    <Content Include="698.txt" />
+    <Content Include="700.txt" />
+    <Content Include="702.txt" />
+    <Content Include="705.txt" />
+    <Content Include="710.txt" />
+    <Content Include="72.txt" />
+    <Content Include="732.txt" />
+    <Content Include="739.txt" />
+    <Content Include="740.txt" />
+    <Content Include="741.txt" />
+    <Content Include="743.txt" />
+    <Content Include="758.txt" />
+    <Content Include="76.txt" />
+    <Content Include="761.txt" />
+    <Content Include="763.txt" />
+    <Content Include="764.txt" />
+    <Content Include="77.txt" />
+    <Content Include="787.txt" />
+    <Content Include="79.txt" />
+    <Content Include="790.txt" />
+    <Content Include="791.txt" />
+    <Content Include="792.txt" />
+    <Content Include="793.txt" />
+    <Content Include="800.txt" />
+    <Content Include="802.txt" />
+    <Content Include="803.txt" />
+    <Content Include="806.txt" />
+    <Content Include="81.txt" />
+    <Content Include="811.txt" />
+    <Content Include="814.txt" />
+    <Content Include="816.txt" />
+    <Content Include="817.txt" />
+    <Content Include="818.txt" />
+    <Content Include="82.txt" />
+    <Content Include="820.txt" />
+    <Content Include="823.txt" />
+    <Content Include="827.txt" />
+    <Content Include="830.txt" />
+    <Content Include="831.txt" />
+    <Content Include="832.txt" />
+    <Content Include="833.txt" />
+    <Content Include="835.txt" />
+    <Content Include="84.txt" />
+    <Content Include="850.txt" />
+    <Content Include="862.txt" />
+    <Content Include="863.txt" />
+    <Content Include="865.txt" />
+    <Content Include="867.txt" />
+    <Content Include="869.txt" />
+    <Content Include="870.txt" />
+    <Content Include="871.txt" />
+    <Content Include="875.txt" />
+    <Content Include="88.txt" />
+    <Content Include="880.txt" />
+    <Content Include="887.txt" />
+    <Content Include="891.txt" />
+    <Content Include="896.txt" />
+    <Content Include="898.txt" />
+    <Content Include="90.txt" />
+    <Content Include="916.txt" />
+    <Content Include="917.txt" />
+    <Content Include="92.txt" />
+    <Content Include="922.txt" />
+    <Content Include="925.txt" />
+    <Content Include="929.txt" />
+    <Content Include="932.txt" />
+    <Content Include="935.txt" />
+    <Content Include="945.txt" />
+    <Content Include="95.txt" />
+    <Content Include="953.txt" />
+    <Content Include="958.txt" />
+    <Content Include="962.txt" />
+    <Content Include="968.txt" />
+    <Content Include="97.txt" />
+    <Content Include="974.txt" />
+    <Content Include="982.txt" />
+    <Content Include="984.txt" />
+    <Content Include="985.txt" />
+    <Content Include="986.txt" />
+    <Content Include="989.txt" />
+    <Content Include="991.txt" />
+    <Content Include="996.txt" />
+    <Content Include="requirements.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="arabic-preprocess.py" />
+    <Compile Include="spelling-checker.py" />
+    <Compile Include="train-dual-input.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Interpreter Include="env\">
+      <Id>env</Id>
+      <Version>3.7</Version>
+      <Description>env (Python 3.7 (64-bit))</Description>
+      <InterpreterPath>Scripts\python.exe</InterpreterPath>
+      <WindowsInterpreterPath>Scripts\pythonw.exe</WindowsInterpreterPath>
+      <PathEnvironmentVariable>PYTHONPATH</PathEnvironmentVariable>
+      <Architecture>X64</Architecture>
+    </Interpreter>
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
+</Project>
